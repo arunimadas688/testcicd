@@ -40,10 +40,10 @@ jobs:
     # - name: Test with pytest
       # run: |
         # pytest
-  publish:
-    needs: build
-    runs-on: ${{matrix.os}}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macOS-atest]
+  # publish:
+  #   needs: build
+  #   runs-on: ${{matrix.os}}
+  #   strategy:
+  #     matrix:
+  #       os: [ubuntu-latest, windows-latest, macOS-atest]
     
